@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio Individual 4.5</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    <h1>Que se come hoy</h1>
+    <header>
+        <h1>Que se come hoy</h1>
+    </header>
+    <main>
+        <section id="section__header">
+            <p>Bienvenido al sitio, por favor selecciona uno de los platos disponibles en la lista para ver su receta</p>
+        </section>
+        <div id="section__search">
+            <form id="searchForm" action="">
+                <select name="listaRecetas" id="listaRecetas">
+                </select>
+                <button id="btnBuscarReceta" type="submit">
+                    <span class="material-symbols-outlined">search</span>
+                </button>
+            </form>
+        </div>
+        <div id="section__content"></div>
+    </main>
+    <footer>
+        <p>Estudiante: Mauricio López</p>
+    </footer>
+    <script type="module" src="assets/js/main.js"></script>
+    <!-- <script type="module" src="assets/js/app.js"></script> -->
 </body>
 </html>
